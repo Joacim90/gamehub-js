@@ -1,0 +1,76 @@
+.game-card-title {
+  margin-bottom: 40px;
+}
+.container {
+  background-color: #131313;
+  padding: 40px;
+  color: white;
+}
+
+.container h2 {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.shopping-cart {
+  background-color: #131313;
+}
+
+.product-info {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-info > * {
+  margin-bottom: 30px;
+}
+
+.product-price a {
+  color: red;
+}
+
+.quantity {
+  border-radius: 0;
+  padding: 10px 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  font-size: 20px;
+  border: 2px solid #3fa535;
+  color: white;
+  cursor: pointer;
+}
+
+.product-img img {
+  max-width: 290px;
+}
+
+@media (min-width: 1450px) {
+  .product-info {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 120px;
+  }
+  .product-img img {
+    max-width: 300px;
+  }
+  .cart-button {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 720px) {
+  .container {
+    padding: 80px;
+  }
+  .container h2 {
+    font-size: 42px;
+  }
+}

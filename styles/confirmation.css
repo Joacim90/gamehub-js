@@ -1,0 +1,98 @@
+h1 {
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+.confirmation {
+  background-color: #131313;
+  padding: 40px;
+}
+.logo img {
+  max-width: 200px;
+}
+
+.confirmation-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  margin: 20px 0;
+}
+
+.order div {
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.order-info a {
+  text-align: center;
+  display: block;
+  margin-top: 40px;
+  font-size: 22px;
+}
+
+.order {
+  display: flex;
+  flex-direction: column;
+}
+.order img {
+  max-width: 300px;
+}
+
+.product-img {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 1000px) {
+  .order {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    padding: 0 50px;
+    margin-top: 20px;
+  }
+  .order img {
+    max-width: 300px;
+  }
+  .confirmation {
+    padding: 20px 100px;
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+
+  .order-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 100px;
+  }
+  h1 {
+    margin-bottom: 40px;
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 720px) {
+  .order img {
+    max-width: 280px;
+  }
+}

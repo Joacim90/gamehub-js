@@ -1,0 +1,33 @@
+section {
+  background-color: #131313;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+section img {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+button {
+  margin-top: 30px;
+}
+
+@media (min-width: 720px) {
+  h1 {
+    font-size: 44px;
+  }
+}
+
+@media (min-width: 1130px) {
+  section {
+    padding: 50px 200px;
+  }
+}

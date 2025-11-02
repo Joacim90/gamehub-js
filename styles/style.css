@@ -1,0 +1,385 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+
+body {
+  background-color: black;
+  padding: 5px 10px;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+p {
+  line-height: 1.7;
+}
+span,
+a {
+  color: #3fa535;
+}
+h1,
+h3,
+h2,
+p {
+  color: white;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+.clr-primary {
+  color: #3fa535;
+}
+
+.clr-white {
+  color: white;
+}
+
+.button-primary {
+  background-color: #131313;
+  border: 2px solid #3fa535;
+  border-radius: 100px;
+  color: #fff;
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+.button-primary:hover {
+  background-color: #368d2e;
+}
+
+.button-primary-small {
+  padding: 15px 30px;
+}
+
+.button-secondary {
+  border-radius: 5px;
+  background-color: #3fa535;
+  color: black;
+  margin: 15px 0;
+  padding: 10px 50px;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 30px 0;
+}
+
+.hero-button {
+  padding: 10px 40px;
+  display: inline-block;
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.main-btn {
+  display: inline-block;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+header {
+  background-color: #3fa535;
+  margin-bottom: 40px;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.gamhub-logo img {
+  max-height: 120px;
+}
+
+.nav-links a {
+  margin-right: 15px;
+  color: black;
+  font-size: 19px;
+}
+
+.nav-icons {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-icons img {
+  max-width: 50px;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.hero,
+.text-hero {
+  background-color: #131313;
+}
+
+.hero h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.product-image,
+.product-title,
+.product-price,
+.game-card-title {
+  margin-bottom: 20px;
+}
+
+.product-cards {
+  padding: 0;
+}
+.game-card {
+  background-color: #131313;
+  padding: 20px;
+}
+
+.game-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px 20px;
+}
+.hidden {
+  visibility: hidden;
+}
+
+.game-card-title {
+  font-size: 21px;
+}
+
+.product-title {
+  color: #3fa535;
+}
+.product-price,
+.product-price-sale {
+  font-size: 20px;
+}
+.product-price-sale {
+  text-decoration: line-through 5px solid;
+  text-decoration-line: line-through;
+  -webkit-text-decoration-line: line-through 5px solid;
+  text-decoration-color: rgba(255, 0, 0, 0.694);
+  -webkit-text-decoration-color: rgba(255, 0, 0, 0.694);
+}
+
+.add-to-cart-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.add-to-cart {
+  font-size: 18px;
+}
+
+.anchor-arrow {
+  visibility: hidden;
+}
+
+.sell-games {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.sell-games-container {
+  background-color: #131313;
+}
+
+.sell-games-logo img {
+  max-width: 200px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  gap: 5px;
+}
+
+.sell-games-text {
+  margin-top: 20px;
+}
+
+.icon img {
+  max-width: 50px;
+}
+
+footer {
+  background-color: #131313;
+  padding: 40px;
+}
+footer li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.footer-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-logo img {
+  max-width: 220px;
+}
+
+.footer-social img {
+  max-width: 70px;
+  margin-bottom: 10px;
+}
+
+.footer-social p {
+  margin-bottom: 10px;
+}
+
+footer a {
+  display: inline-block;
+}
+
+/* Responsive header/nav */
+
+@media (min-width: 900px) {
+  .nav-links a {
+    margin-right: 60px;
+    font-size: 21px;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 1230px) {
+  nav {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .nav-links a {
+    margin-right: 60px;
+    font-size: 21px;
+    font-weight: 500;
+  }
+
+  .anchor-arrow {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    visibility: visible;
+    margin: 20px 0;
+  }
+  .anchor-arrow img {
+    max-width: 80px;
+  }
+  footer {
+    padding: 40px;
+  }
+  .footer-items {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer-links li {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 22px;
+  }
+
+  .footer-links li:last-child {
+    margin-right: 0;
+  }
+
+  .footer-social p {
+    margin-bottom: 10px;
+  }
+  .footer-social img {
+    margin-right: 20px;
+  }
+}
+
+/* Responsive hero */
+
+@media (min-width: 720px) {
+  .hero-h1 h1 {
+    font-size: 40px;
+  }
+  .button-primary {
+    padding: 10px 30px;
+    border-radius: 100px;
+    font-size: 20px;
+  }
+  .hero-button {
+    margin: 20px 0;
+    padding: 20px 100px;
+    display: inline-block;
+    font-size: 24px;
+  }
+}
+
+/* Responsive product cards */
+
+@media (min-width: 720px) {
+  .game-card-title {
+    font-size: 40px;
+  }
+
+  .game-card {
+    padding: 20px 40px;
+  }
+}
+
+/* Responsive text hero */
+
+@media (min-width: 720px) {
+  .text-hero h3 {
+    font-size: 30px;
+    padding: 40px;
+  }
+}
+@media (min-width: 1016px) {
+  .hero-h1 h1 {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 1020px) {
+  .sell-games {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .icon img {
+    max-width: 100px;
+  }
+  .sell-games-logo img {
+    max-width: 300px;
+  }
+  .sell-games-text {
+    font-size: 30px;
+  }
+  .sell-games-container h4 {
+    padding: 40px 130px;
+  }
+  .sell-games-container {
+    padding-top: 40px;
+  }
+  .icons {
+    gap: 10px;
+  }
+}

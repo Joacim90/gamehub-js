@@ -1,0 +1,81 @@
+h1 {
+  font-size: 30px;
+  margin: 20px 0;
+}
+.container {
+  background-color: #131313;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+  gap: 20px;
+}
+.contact-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.contact-icons img {
+  width: 40px;
+}
+.contact-box {
+  max-width: 550px;
+  background-color: #131313;
+}
+
+.field {
+  width: 100%;
+  border: 3px solid #3fa535;
+  border-radius: 5px;
+  background-color: #131313;
+  padding: 8px;
+  font-size: 17px;
+  margin-bottom: 22px;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+
+textarea {
+  min-height: 150px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px 40px;
+  background-color: #131313;
+  color: #fff;
+  font-size: 18px;
+  border: 3px solid #3fa535;
+
+  cursor: pointer;
+}
+
+.button-primary {
+  display: block;
+  text-align: center;
+}
+
+@media (min-width: 720px) {
+  .contact-icons {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .container {
+    flex-direction: row;
+    gap: 100px;
+    padding: 20px 100px;
+  }
+  .contact-icons img {
+    width: 70px;
+  }
+  h1 {
+    font-size: 60px;
+    margin: 20px 0;
+  }
+}

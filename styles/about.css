@@ -1,0 +1,44 @@
+h1 {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.about {
+  background-color: #131313;
+  padding: 30px;
+}
+li {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.about p:first-child {
+  margin-bottom: 20px;
+}
+
+.about-text {
+  margin-bottom: 20px;
+}
+
+.about-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  border-radius: none;
+}
+button {
+  border-radius: 5px;
+  color: black;
+  background-color: #3fa535;
+  font-size: 20px;
+}
+
+@media (min-width: 720px) {
+  .about {
+    padding: 50px 80px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+}

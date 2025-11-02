@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Secure and easy checkout at GameHub! Review your order, choose your payment method, and complete your purchase to start gaming. Fast, safe, and hassle-free!"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Checkout - Gamehub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/checkout.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="gamhub-logo" id="scroll">
+          <a href="index.html"
+            ><img src="images/GameHub_Logo.png" alt="GameHub logo"
+          /></a>
+        </div>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="nav-icons">
+          <a href="my-account.html"
+            ><img src="images/avatar.png" alt="Avatar icon"
+          /></a>
+          <a href="shopping-cart.html"
+            ><img src="images/grocery-store.png" alt="Shopping cart icon"
+          /></a>
+        </div>
+      </nav>
+    </header>
+    <h1 class="text-center clr-primary">Checkout</h1>
+    <div class="container">
+      <div class="summary">
+        <h4 class="clr-primary text-center">You're paying</h4>
+        <h2 class="clr-primary text-center">$49.99</h2>
+        <img src="images/ForgeLegend-min.jpg" alt="Forge legend" />
+      </div>
+      <div class="contact-box">
+        <input
+          type="text"
+          class="field"
+          aria-label="Cardholder's name"
+          placeholder="Cardholder's name"
+        />
+        <input
+          type="text"
+          class="field"
+          aria-label="Card number"
+          placeholder="Card number"
+        />
+        <div class="checkout">
+          <input
+            type="text"
+            class="field"
+            aria-label="Expiry date"
+            placeholder="Expiry"
+          />
+          <input type="text" class="field" aria-label="CVC" placeholder="CVC" />
+        </div>
+        <input
+          type="text"
+          class="field"
+          aria-label="Discount Code"
+          placeholder="Discount Code"
+        />
+        <div class="checkout-btn">
+          <a class="button-secondary" href="order-confirmation.html">Pay</a>
+        </div>
+      </div>
+    </div>
+    <div class="anchor-arrow">
+      <a href="#scroll"
+        ><img
+          src="images/up-arrow.png"
+          alt="Arrow up icon for scrolling to top of the page"
+        />
+      </a>
+    </div>
+    <footer>
+      <div class="footer-items">
+        <div class="footer-logo">
+          <img src="images/GameHub_Logo-green.png" alt="Gamehub logo green" />
+        </div>
+        <div class="footer-links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <p class="text-center">Follow us on social media</p>
+          <a href="#"><img src="images/facebook.png" alt="Facebook logo" /></a>
+          <a href="#"
+            ><img src="images/instagram.png" alt="Instagram logo"
+          /></a>
+          <a href="#"><img src="images/social-media.png" alt="x logo" /></a>
+        </div>
+      </div>
+      <p class="text-center clr-primary">© All rights reserved Gamehub 2025</p>
+    </footer>
+    <script type="module" src="js/checkout.js"></script>
+  </body>
+</html>
